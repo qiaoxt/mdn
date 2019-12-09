@@ -3,13 +3,17 @@ html {
     font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
   }
 
-  h1 {
+h1 {
     font-size: 60px;
     text-align: center;
   }
   
-  p, li {
+p, li {
     font-size: 16px;    
     line-height: 2;
     letter-spacing: 1px;
+  }
+  
+html {
+    background-color: #00539F;
   }
