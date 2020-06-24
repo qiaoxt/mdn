@@ -1,9 +1,10 @@
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
+let myImage = document.querySelector('img');
 
-const button = document.querySelector('button');
-
-button.onclick = function() {
-  let name = prompt('What is your name?');
-  alert('Hello ' + name + ', nice to see you!');
+myImage.onclick = function() {
+    let mySrc = myImage.getAttribute('src');
+    if(mySrc === 'images/firefox-icon.png') {
+      myImage.setAttribute ('src','images/firefox2.png');
+    } else {
+      myImage.setAttribute ('src','images/firefox-icon.png');
+    }
 }
